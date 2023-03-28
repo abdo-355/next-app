@@ -3,7 +3,7 @@ import classes from './MeetupItem.module.css';
 
 export interface IMeetupItem {
   image: string;
-  id: string;
+  id?: string;
   title: string;
   address: string;
 }
